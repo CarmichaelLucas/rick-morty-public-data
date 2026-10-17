@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rick-morty-public-data"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["Carmichael, Lucas <carmichael.lucas@outlook.com>"]
@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+httpx = "^0.28.1"
+ramapi = "^0.1.0"
+pytest = "^9.1.1"
+sqlalchemy = "^2.0.41"
 
 
 [build-system]
